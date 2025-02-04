@@ -8,7 +8,7 @@ import google.generativeai as gen_ai
 load_dotenv()
 st.set_page_config(
     page_title="Chat with Tarun's Bot",
-    page_icon="Tarun1.png",
+    page_icon="Image.png",
     layout="centered",
 )
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_keyY")
@@ -28,7 +28,7 @@ col1, col2 = st.columns([6,6])
 with col1:
     st.title("Tarun's - ChatBot")
 with col2:
-    st.image("Tarun1.png", width=70)
+    st.image("Image.png", width=70)
 
 
 
