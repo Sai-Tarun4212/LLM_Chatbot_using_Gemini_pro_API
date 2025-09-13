@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon="Image.png",
     layout="centered",
 )
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_keyY")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_key")
 gen_ai.configure(api_key=GOOGLE_API_KEY)
 model = gen_ai.GenerativeModel('gemini-pro')
 
