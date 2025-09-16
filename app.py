@@ -26,7 +26,7 @@ if "chat_session" not in st.session_state:
     st.session_state.chat_session = model.start_chat(history=[])
 col1, col2 = st.columns([6,6])
 with col1:
-    st.title("AI ChatBot")
+    st.title("BotMate-AI ChatBot")
 with col2:
     st.image("Image.png", width=70)
 
