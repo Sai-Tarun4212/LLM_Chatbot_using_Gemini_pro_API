@@ -27,7 +27,6 @@ if "chat_session" not in st.session_state:
 col1, col2 = st.columns([6,6])
 with col1:
     st.title("AI ChatBot")
-    st.markdown("Ask anything and chat with Gemini-powered assistant ✨")
 with col2:
     st.image("Image.png", width=70)
 
